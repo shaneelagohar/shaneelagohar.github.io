@@ -344,17 +344,20 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.png) no-repeat top center;
+  background-color: #c173453d;
+  /* background: url(../img/banner/home-banner.png) no-repeat top center; */
   background-position: center;
   background-size: cover; }
   .home_banner_area .banner_inner {
-    width: 100%; }
-    .home_banner_area .banner_inner .home_right_img {
-      padding-top: 197px; }
+    width: 100%; 
+   padding-top: 100px;}
+    .home_banner_area .banner_inner .home_right_img img {
+      height: 550px;
+     }
       @media (max-width: 1480px) {
         .home_banner_area .banner_inner .home_right_img img {
           max-width: 100%;
-          height: auto; } }
+          height: 500px; } }
       @media (max-width: 991px) {
         .home_banner_area .banner_inner .home_right_img {
           display: none; } }
@@ -410,7 +413,7 @@ button:focus {
     overflow: hidden;
     width: 100%;
     min-height: 485px;
-    background: url(../img/banner/common-banner.png) no-repeat right bottom;
+    /* background: url(../img/banner/common-banner.png) no-repeat right bottom; */
     background-size: 90% 85%;
     width: 98%;
     z-index: 1; }
