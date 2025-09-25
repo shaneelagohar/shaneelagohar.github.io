@@ -9687,3 +9687,45 @@ textarea.form-control {
     height: auto !important;
   }
 }
+/* Styling */
+.subheading {
+  color: #f1c40f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.highlight {
+  color: #f1c40f;
+}
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+.hero-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+}
+.buttons a {
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 28px;
+    text-align: center;
+  }
+  .hero-subtitle {
+    font-size: 18px;
+    text-align: center;
+  }
+  .subheading {
+    text-align: center;
+  }
+  .buttons {
+    text-align: center;
+  }
+  .hero-img {
+    max-width: 250px;
+  }
+}
